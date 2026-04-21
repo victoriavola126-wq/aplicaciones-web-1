@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Registro de usuario</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+           <nav class="navbar"> 
+                <div class="logo">Mi Sitio</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">Abrir y cerrar Sesión</a></li>
+                    <li><a href="categorias.html">Nuestros Productos </a></li>
+                 </ul>
+            </nav>
+        </header>
+
+        <h1> Arte para armar </h1>
+        <h3> Espacio para hacer realidad tus proyectos</h2>
+        <form action="#" method="post">
+        <label for="name"> Nombre Completo</label>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Juan Paez" required>
+        <br> <br>
+        <label for="Apellido"> Apellido</label>
+        <input type="text" id="Apellido" name="Apellido" placeholder="Juan Paez" required>
+        <br> <br>
+        <label for="email"> correo electronico:</label>
+        <input type="email" id="email" name="email" placeholder="usuario@gmail.com" required>
+        <br> <br>
+        <label for="Telefono"> Telefono:</label>
+        <input type="tel" id="Telefono" name="Telefono" placeholder="+59 300 000 000" required>
+        <br> <br>
+        <label for="nacimiento"> Fecha de nacimiento:</label>
+        <input type="date" id="nacimiento" name="nacimiento" placeholder="nacimiento" required>
+        <br> <br>
+        <label for="edad"> Edad:</label>
+        <input type="number" id="edad" name="edad " min="18" max="120" step="1" value="5"  required>
+        <br> <br>
+        <label for="dni"> DNI:</label>
+        <input type="text" id="dni" name="dni" placeholder="33.333.333" required >
+        <br> <br>
+        <label for="password"> Contraseña:</label>
+        <input type="password" id="password" name="password "  required>
+        <br> <br>
+        <label for="confirm_password"> Confirmar Contraseña:</label>
+        <input type="password" id="confirm_password" name="confirm_password "  required>
+        <br> <br>
+        <button type="submit">Registrarse</button>
+        <button type="reset">Limpiar formulario</button>
+        </form>
+
+
+    </body>
+</html>
